@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-27T17:02:09 IST" name="Default suite" finished-at="2024-05-27T17:02:17 IST" duration-ms="7937">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner1@76494737]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-05-27T17:02:09 IST" name="Default test" finished-at="2024-05-27T17:02:17 IST" duration-ms="7937">
+      <class name="TestRunner.TestRunner1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner1@76494737]" started-at="2024-05-27T17:02:09 IST" name="setUpClass" finished-at="2024-05-27T17:02:11 IST" duration-ms="1649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ff074a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner1@76494737]" started-at="2024-05-27T17:02:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-27T17:02:16 IST" duration-ms="5002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Adding the users to the List."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner1@76494737]" started-at="2024-05-27T17:02:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-27T17:02:17 IST" duration-ms="532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Adding the users to the List."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner1@76494737]" started-at="2024-05-27T17:02:17 IST" name="tearDownClass" finished-at="2024-05-27T17:02:17 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestRunner1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

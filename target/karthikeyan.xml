@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="4.835" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Adding the users to the List." name="Add user - Example #1.1" time="4.172">
+<system-out><![CDATA[
+Given User is on reqres URL.................................................passed
+When User enters the "Karthik" and "Software Eng"...........................passed
+And users hit the users API.................................................passed
+Then Users are added to list................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding the users to the List." name="Add user - Example #1.2" time="0.453">
+<system-out><![CDATA[
+Given User is on reqres URL.................................................passed
+When User enters the "Rohan" and "Analyst"..................................passed
+And users hit the users API.................................................passed
+Then Users are added to list................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
